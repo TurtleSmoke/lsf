@@ -10,7 +10,7 @@ export const LSFLoadingState: React.FC<LSFLoadingStateProps> = ({
   <div
     className={`flex flex-col items-center justify-center h-screen p-4 bg-gray-900 text-white"`}
   >
-    <h2 className="text-2xl font-bold mb-4">Loading Images...</h2>
-    <p>{Math.round(progress)}%</p>
+    <h2 className="text-2xl font-bold text-white mb-4">Loading Images...</h2>
+    <p className="text-white">{Math.round(progress)}%</p>
   </div>
 );
