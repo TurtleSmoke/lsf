@@ -93,7 +93,7 @@ const LSFLearning = () => {
                       className={`absolute inset-0 bg-gray-200 dark:bg-gray-700 rounded-lg transition-opacity duration-300 ${!showAnswer ? "opacity-100" : "opacity-0"}`}
                     />
                     <img
-                      src={`/images/alphabet/${src}.png`}
+                      src={`/lsf/images/alphabet/${src}.png`}
                       alt={`LSF sign for letter ${currentLetter} - View ${index + 1}`}
                       className={`rounded-lg shadow-lg w-64 sm:w-80 h-64 sm:h-80 object-cover transition-all duration-300 ${!showAnswer ? "blur-2xl" : ""}`}
                       onLoad={() => {
